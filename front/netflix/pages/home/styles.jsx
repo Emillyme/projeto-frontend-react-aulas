@@ -74,6 +74,27 @@ const styles = StyleSheet.create({
       borderWidth: 1,
       marginLeft: 5
     },
+
+    foto01:{
+      width:'40%'
+    },
+    foto02:{
+      width: '50%', 
+      height: 150,
+      marginLeft: 20,
+      borderWidth:0.2,
+      borderColor:'#aaa',
+      marginTop:10,
+      alignItems:'center',
+      justifyContent:'center'
+    },
+    foto03:{
+      flexDirection: 'row'
+    },
+    foto04:{
+      width: 150, 
+      height: 150,  
+    },
   })
 
   export default styles
